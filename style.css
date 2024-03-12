@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #555;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la sección de actores principales */
+h3 + img {
+    margin-top: 10px;
+}
+
+/* Estilos para las imágenes de actores principales */
+p + img {
+    margin: 10px 10px 0 10px;
+    border-radius: 50%;
+}
+
+/* Estilos para los nombres de los actores */
+p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+/* Estilo para el enlace al archivo CSS (opcional) */
+link[rel="stylesheet"] {
+    color: #999;
+    text-decoration: none;
+}
+
+/* Cambio de color al pasar el mouse sobre el enlace (opcional) */
+link[rel="stylesheet"]:hover {
+    color: #555;
+}
